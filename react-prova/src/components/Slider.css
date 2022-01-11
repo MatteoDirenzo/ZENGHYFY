@@ -1,0 +1,14 @@
+.slider-container{
+    height: 70px;
+    width: 8px;
+    background-color: #15853c;
+    border-radius: 15px;
+    transform: rotate(270deg);
+    margin: 0;
+    padding: 0;
+}
+
+.slider-inner{
+    background-color: #1DB954;
+    border-radius: 15px;
+}

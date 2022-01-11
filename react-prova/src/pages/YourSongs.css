@@ -1,0 +1,21 @@
+.yoursongs-container{
+    height: calc(92vh - 52px);
+    width: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.scrollable-container{
+    height: 99%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    white-space: pre-wrap;
+}
+
+.infinite-scroll{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

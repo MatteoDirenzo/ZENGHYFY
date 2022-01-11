@@ -1,0 +1,41 @@
+.container-all-player {
+  height: calc(92vh - 52px);
+}
+
+.container-media {
+  height: 10%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.input-search {
+  font-family: Circular;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  width: 100%;
+  height: 100%;
+  text-align: start;
+  letter-spacing: 2px;
+  color: white;
+  padding-left: 8px;
+}
+
+.search-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 90%;
+    width: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.lyrics-container{
+    white-space: pre-wrap;
+    font-size: 30px;
+    color: rgb(131, 131, 131);
+    height: 90%;
+    width: auto;
+    text-align: center;
+}

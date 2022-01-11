@@ -1,0 +1,71 @@
+.all {
+  margin: 20px;
+  margin-bottom: 0;
+  padding: 0;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 20px;
+}
+
+.feature-container {
+  margin: 0;
+  padding: 0;
+  height: 5%;
+  width: auto;
+  text-align: start;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.feature-container > .text-card{
+  padding-right: 50px;
+}
+
+.image-card {
+  border-radius: 10px;
+  height: 96px;
+  width: 96px;
+  align-self: center;
+  margin-bottom: 12px;
+}
+
+.text-card {
+  text-align: start;
+  color: rgb(255, 255, 255);
+}
+
+.text-card#title {
+  font-size: 20px;
+  color: #1db954;
+}
+
+.text-card#artist {
+  font-size: 20px;
+  color: rgb(80, 80, 80);
+  text-shadow: 1px 1px 0 #ffffff;
+  margin-top: 7px;
+}
+
+.button-play {
+  color: #ffffff;
+  height: 50px;
+  cursor: pointer;
+  width: auto;
+  margin-bottom: 40px;
+  margin-left: 100px;
+}
+
+.text-card#special-text {
+  margin-top: 10px;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+}

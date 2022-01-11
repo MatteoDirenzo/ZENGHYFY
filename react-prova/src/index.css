@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Circular";
+  src: local("FiraSans"),
+    url(./fonts/lineto-circular-black.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  background-color: #191414;
+  font-family: "Circular", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(59, 59, 59);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1db954;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #19a048;
+}
+
+[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-right: 20px;
+  height: 40px;
+  width: 40px;
+  background-image: url("https://img.icons8.com/ios-filled/50/ffffff/cancel.png");
+  background-size: 10px 10px;
+  background-size: cover;
+}
+
+:focus {
+  outline: none;
+}
